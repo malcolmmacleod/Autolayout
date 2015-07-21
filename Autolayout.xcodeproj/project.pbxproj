@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB830EE1B5E6A8D00B27C43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB830ED1B5E6A8D00B27C43 /* User.swift */; };
 		3CF020FF1B5C47D200344F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF020FE1B5C47D200344F59 /* AppDelegate.swift */; };
 		3CF021011B5C47D200344F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF021001B5C47D200344F59 /* ViewController.swift */; };
 		3CF021041B5C47D200344F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF021021B5C47D200344F59 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB830ED1B5E6A8D00B27C43 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3CF020F91B5C47D100344F59 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF020FD1B5C47D200344F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF020FE1B5C47D200344F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		3CF020FB1B5C47D100344F59 /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
+				3CB830ED1B5E6A8D00B27C43 /* User.swift */,
 				3CF020FE1B5C47D200344F59 /* AppDelegate.swift */,
 				3CF021001B5C47D200344F59 /* ViewController.swift */,
 				3CF021021B5C47D200344F59 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				3CF021011B5C47D200344F59 /* ViewController.swift in Sources */,
 				3CF020FF1B5C47D200344F59 /* AppDelegate.swift in Sources */,
+				3CB830EE1B5E6A8D00B27C43 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				3CF0211A1B5C47D200344F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF0211B1B5C47D200344F59 /* Build configuration list for PBXNativeTarget "AutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				3CF0211D1B5C47D200344F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
